@@ -3,12 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ZENDO.COM</title>
     <link rel="stylesheet" href="Index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
+    <style>
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+  </style>
   </head>
   <body>
     <nav class="navbar">
@@ -29,6 +44,7 @@
             </li>
           </ul>
         </div>
+        <nav class=""></nav>
         <div class="menu-center">
           <img
             src="https://zandokh.com/images/ZANDO-NEW-LOGO-2025.png"
@@ -82,17 +98,59 @@
         </div>
       </div>
     </nav>
-    <div class="benner">
+    <div class="container-width showbar">
+      <span>Enjoy free delivery on order 40$</span>
+    </div>
+    <!-- <div class="benner">
        <img src="https://i.pinimg.com/736x/02/6a/41/026a419a1157ba44e0747e07a7124c7a.jpg" alt="">
+    </div> -->
+    <!-- Banner -->
+    <section class="container-width benner">
+       <swiper-container class="mySwiper">
+    <swiper-slide>
+       <img src="https://i.pinimg.com/736x/02/6a/41/026a419a1157ba44e0747e07a7124c7a.jpg" alt="">
+        <div class="position">
+         <button>Show men</button>
+         <button>Show women</button>
     </div>
-    <div class="position">
-         <div class="men">
-               <span>SHOW MEN</span>
-         </div> 
-         <div class="women">
-          <span>SHOP WOMEN</span>
-         </div> 
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/start%20from%2050/50-OFF_Main_ZANDO%20(2160x1066).jpg" alt="">
+      <div class="position">
+         <button>Show men</button>
+         <button>Show women</button>
     </div>
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/start from 50/35-OFF_Main_ZANDO (2160x1066).jpg" alt="">
+      <div class="position">
+         <button>Show men</button>
+         <button>Show women</button>
+    </div>
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/start from 50/35-OFF_Main_ZANDO (2160x1066).jpg" alt="">
+      <div class="position">
+         <button>Show men</button>
+         <button>Show women</button>
+    </div>
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/start from 50/35-OFF_Main_ZANDO (2160x1066).jpg" alt="">
+      <div class="position">
+         <button>Show men</button>
+         <button>Show women</button>
+    </div>
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://zandokh.com/image/catalog/banner/2026/ZANDO/Jan/start from 50/35-OFF_Main_ZANDO (2160x1066).jpg" alt="">
+      <div class="position">
+         <button>Show men</button>
+         <button>Show women</button>
+    </div>
+    </swiper-slide>  
+  </swiper-container>
+    </section>
     <main class="brand-name">
       <div class="name1">
         <img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/brand/update/ZandoBlack0.jpg" alt="">
@@ -116,12 +174,61 @@
         <img src="https://zandokh.com/image/catalog/banner/2025/ZANDO/December/brand/update/GatoniBlack0.jpg" alt="">
       </div>
     </main>
-    <div class="banner-2">
-      <img src="https://i.pinimg.com/1200x/1e/1c/3e/1e1c3ebdccc66d783108d9f77b920a93.jpg" alt="">
-    </div>
+
+    <!-- Auto banner -->
+    <section class="banner-2"> 
+  <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    <swiper-slide>
+      <img src="https://zandokh.com/image/catalog/banner/2026/ZAND…ection/checkmate%20website%20banner%20(zando).jpg" alt="">
+    </swiper-slide>
+    <swiper-slide>
+      <img src="" alt="">
+    </swiper-slide>
+    
+    <swiper-slide>
+      <img src="" alt="">
+    </swiper-slide>
+    
+    <swiper-slide>
+      <img src="" alt="">
+    </swiper-slide>
+    
+    <swiper-slide>
+      <img src="" alt="">
+    </swiper-slide>
+    
+  </swiper-container>
+    </section>
     <div class="best-topic">
       <h1>🔥Best of the best</h1>
       <p>Shop more</p>
     </div>
+    <nav class="carts">
+      <div class="item-carts">
+        <swiper-container class="mySwiper" slides-per-view="3" centered-slides="true" space-between="30" pagination="true"
+           pagination-type="fraction" navigation="true">
+          <swiper-slide>
+            <div class="cart-1">
+              <div class="images">
+                <img src="https://i.pinimg.com/736x/28/77/da/2877da7f8b6ef1864ef7ba8e46a98359.jpg" alt="">
+                <div class="discount">
+                  <span>-16%</span>
+                </div>
+              </div>
+              <div class="price">
+                 2
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>Slide 1</swiper-slide>
+          <swiper-slide>Slide 2</swiper-slide>
+          <swiper-slide>Slide 1</swiper-slide>
+          <swiper-slide>Slide 2</swiper-slide>
+          <swiper-slide>Slide 4</swiper-slide>
+         </swiper-container>
+      </div>
+    </nav>
   </body>
 </html>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>

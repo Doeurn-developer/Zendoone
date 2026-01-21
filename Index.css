@@ -69,7 +69,7 @@ html {
   justify-content: space-between;
   align-items: center;
   margin-left: 20px;
-  padding: 1.5rem ;
+  padding: 1.5rem;
 }
 .search {
   background-color: rgba(239, 243, 247, 0.902);
@@ -78,7 +78,7 @@ html {
   /* display: flex;
   align-items: center; */
   border-radius: 5px;
-  box-shadow:  2px 2px gray;
+  box-shadow: 2px 2px gray;
   display: flex;
   align-items: center;
 }
@@ -95,9 +95,9 @@ ul li {
   outline: none;
   font-size: 20px;
   border: none;
-  border-radius: 0px 5px 5px  0px;
+  border-radius: 0px 5px 5px 0px;
 }
-span{
+span {
   margin-left: 5px;
 }
 .search input:hover {
@@ -123,64 +123,50 @@ span{
 .benner {
   width: 90%;
   margin: auto;
-  margin-top: 10px;
-  height: 500px;
+  height: 700px;
 }
 .benner img {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   height: 100%;
 }
 .position {
-  display: flex;
   position: absolute;
-  gap: 15px;
-  top: 50%;
+  bottom: 15%;
   right: 50%;
-}
-.women {
   display: flex;
-  align-items: center;
-  height: 40px;
-  border: 2px solid black;
-  padding: 5px 10px;
+  gap: 10px;
+}
+.position button {
+  background-color: transparent;
+  padding: 15px;
   transition: transform 0.5s;
+  border-radius: 5px;
 }
-.women:hover {
-  background-color: blue;
+.position button:hover {
   transform: translateY(-10px);
+  color: white;
+  background-color: rgb(120, 120, 160);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
-.men {
-  height: 40px;
-  border: 2px solid black;
-  display: flex;
-  align-items: center;
-  padding: 5px 10px;
-  transition: transform 0.5s;
-}
-.men:hover {
-  background-color: red;
-  transform: translateY(-10px);
-}
-.login{
+.login {
   /* background-color: red; */
   margin-left: 30px;
 }
-.login ul{
+.login ul {
   display: flex;
   gap: 20px;
-  
 }
-.login ul li a{
-text-decoration: none;
-font-size: 20px ;
-color: black;
+.login ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
-.login ul li a:hover{
+.login ul li a:hover {
   color: blue;
   font-weight: bold;
 }
-.brand-name{
+.brand-name {
   width: 90%;
   height: 90px;
   margin: auto;
@@ -189,27 +175,27 @@ color: black;
   justify-content: space-around;
   align-items: center;
 }
-.name1{
+.name1 {
   width: 13%;
   height: 100%;
   padding: 5px;
 }
-.name1 img{
+.name1 img {
   width: 100%;
   height: 120%;
   object-fit: cover;
 }
-.banner-2{
-  width:90%;
-  height: 350px;
+.banner-2 {
+  width: 90%;
+  height: 450px;
   margin: auto;
   margin-top: 30px;
 }
-.banner-2 img{
+.banner-2 img {
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
-.best-topic{
+.best-topic {
   width: 90%;
   height: 70px;
   margin: auto;
@@ -218,11 +204,65 @@ color: black;
   justify-content: space-between;
   align-items: center;
 }
-.best-topic h1{
+.best-topic h1 {
   font-size: 4rem;
 }
-.best-topic p{
-  font-size: 2rem;;
+.best-topic p {
+  font-size: 2rem;
   margin-right: 10px;
-
+}
+.showbar {
+  background-color: black;
+  width: 90%;
+  height: 35px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px -5px;
+  position: sticky;
+  top: 75px;
+  z-index: 50;
+}
+.carts {
+  width: 100%;
+  height: 650px;
+  background-color: beige;
+  bottom: 10%;
+}
+.item-carts {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  background-color: rgb(7, 145, 145);
+}
+.cart-1 {
+  width: 100%;
+  height: 100%;
+}
+.cart-1 .images {
+  width: 100%;
+  height: 70%;
+  background-color: red;
+}
+.images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
+  background-color: red;
+}
+.cart-1 .price {
+  width: 100%;
+  height: 30%;
+  background-color: blueviolet;
 }
