@@ -168,22 +168,21 @@ span {
 }
 .brand-name {
   width: 90%;
-  height: 90px;
+  height: 100px;
   margin: auto;
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.name1 {
+.swiper-slide .name1 {
   width: 13%;
   height: 100%;
-  padding: 5px;
 }
 .name1 img {
   width: 100%;
-  height: 120%;
-  object-fit: cover;
+  height: 100%;
+  
 }
 .banner-2 {
   width: 90%;
@@ -227,14 +226,12 @@ span {
 .carts {
   width: 100%;
   height: 650px;
-  background-color: beige;
   bottom: 10%;
 }
 .item-carts {
   width: 90%;
   margin: auto;
   height: 100%;
-  background-color: rgb(7, 145, 145);
 }
 .cart-1 {
   width: 100%;
@@ -248,7 +245,6 @@ span {
 .images img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   position: relative;
 }
 .discount {
@@ -261,8 +257,85 @@ span {
   font-size: 2rem;
   background-color: red;
 }
-.cart-1 .price {
+.cart-1 .price-name {
   width: 100%;
   height: 30%;
-  background-color: blueviolet;
+}
+.price-name .price{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  
+}
+.price h2{
+  color: red;
+  font-size: 3rem;
+  margin-top: 10px;
+
+}
+.price del{
+  color: gray;
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+.del{
+  display: flex;
+  justify-content: start;
+  margin-top: 5px;
+  font-size: 2rem;
+  color: gray;
+  margin-left: 10px;
+  gap: 335px;
+}
+.del span i{
+  font-size: 2.5rem;
+  bottom: 100px;
+}
+span{
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+.poster{
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  margin-top: 20px;
+  display:flex;
+  justify-content: space-between;
+}
+.poster-1{
+  width: 31%;
+  height: 100%;
+}
+.poster-1 img{
+  width: 100%;
+  height: 100%;
+}
+.Top-shose{
+  width: 90%;
+  height: 600px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Top-shose div{
+  width: 48%;
+  height: 100%;
+  background-color: blue;
+}
+.Top-shose div img{
+  width: 100%;
+  height: 100%;
+
+}
+.CNY{
+  width: 90%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
