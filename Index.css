@@ -247,6 +247,13 @@ span {
   height: 100%;
   position: relative;
 }
+.new-name{
+  position: absolute;
+  bottom: 32%;
+  right: 5%;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
 .discount span{
   position: absolute;
   top: 10px;
@@ -280,7 +287,7 @@ span {
   font-size: 2.5rem;
   margin-top: 10px;
 }
-.del{
+.del {
   display: flex;
   justify-content: start;
   margin-top: 5px;
