@@ -182,7 +182,6 @@ span {
 .name1 img {
   width: 100%;
   height: 100%;
-  
 }
 .banner-2 {
   width: 90%;
@@ -213,11 +212,11 @@ span {
 .showbar {
   background-color: white;
   width: 90%;
-  height:40px;
+  height: 40px;
   bottom: 5%;
   color: white;
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 10px -5px;
   position: sticky;
@@ -234,6 +233,12 @@ span {
   margin: auto;
   height: 100%;
 }
+.cart-1:hover {
+  transform: scale(0.9);
+  transition: 0.7s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid red;
+}
 .cart-1 {
   width: 100%;
   height: 100%;
@@ -248,14 +253,14 @@ span {
   height: 100%;
   position: relative;
 }
-.new-name{
+.new-name {
   position: absolute;
   bottom: 32%;
   right: 5%;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
 }
-.discount span{
+.discount span {
   position: absolute;
   top: 10px;
   font-size: 2.5rem;
@@ -271,22 +276,20 @@ span {
   height: 30%;
 }
 
-.price-name .price{
+.price-name .price {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-left: 10px;
-  
 }
 
-.price h2{
+.price h2 {
   color: red;
   font-size: 3rem;
   margin-top: 10px;
-
 }
 
-.price span{
+.price span {
   color: gray;
   font-size: 2.5rem;
   margin-top: 10px;
@@ -296,49 +299,55 @@ span {
 .del {
   display: flex;
   justify-content: space-between;
-  bottom:10%;
+  bottom: 10%;
 }
 
-.del span:first-child{
+.del span:first-child {
   text-decoration: line-through;
   color: gray;
   font-size: 2rem;
   left: 10px;
 }
 
-.del span i{
+.del span i {
   font-size: 3rem;
   color: gray;
   right: 10px;
 }
 
-span{
+span {
   display: flex;
   justify-content: start;
   margin-top: 10px;
   font-size: 2.3rem;
 }
 
-.poster{
+.poster {
   width: 90%;
   height: 500px;
   margin: auto;
   margin-top: 20px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
-.poster-1{
+.poster-1 {
   width: 31%;
   height: 100%;
 }
+.poster-1:hover {
+  transform: scale(0.9);
+  transition: 0.6s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid red;
+}
 
-.poster-1 img{
+.poster-1 img {
   width: 100%;
   height: 100%;
 }
 
-.Top-shose{
+.Top-shose {
   width: 90%;
   height: 600px;
   margin: auto;
@@ -346,20 +355,24 @@ span{
   display: flex;
   justify-content: space-between;
 }
-
-.Top-shose div{
+.Top-shose div:hover {
+  transform: scale(0.9);
+  transition: 0.7s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid red;
+}
+.Top-shose div {
   width: 48%;
   height: 100%;
   background-color: blue;
 }
 
-.Top-shose div img{
+.Top-shose div img {
   width: 100%;
   height: 100%;
-
 }
 
-.CNY{
+.CNY {
   width: 90%;
   height: 60px;
   display: flex;
@@ -368,46 +381,45 @@ span{
   font-weight: bold;
 }
 
-.footer{
+.footer {
   height: 400px;
   display: flex;
   flex-wrap: wrap;
   gap: 3px;
 }
-.footer >div{
+.footer > div {
   width: 19.7921%;
   height: 50%;
 }
-.footer h1{
+.footer h1 {
   font-size: 2rem;
 }
-.QR{
- display:flex;
- flex-direction: column;
- align-items: center;
-
+.QR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.QR img{
+.QR img {
   width: 70%;
   height: 60%;
   margin-top: 10px;
   object-fit: fill;
 }
-.loyalty p{
+.loyalty p {
   font-size: 2rem;
   margin-top: 6px;
 }
-.facebook{
+.facebook {
   display: flex;
   height: 20px;
   gap: 12px;
   margin-top: 5px;
   align-items: center;
 }
-.facebook span i{
+.facebook span i {
   font-size: 2rem;
 }
-.facebook a{
+.facebook a {
   text-decoration: none;
   color: black;
 }
